@@ -1,13 +1,3 @@
-# indicator     dcat    metadata on db
-# Baro          X
-# GL            X       X
-# Beschäftigung X       Y
-# ESI           X
-# global baro   X
-
-# TODO: keywords, topics, accrualperiodicity
-#       Metadata as csv or json or both or neither or banana?
-
 library(dcatR)
 
 pub <- DcatPublisher$new("KOF Konjunkturforschungsstelle", "https://kof.ethz.ch/")
@@ -28,7 +18,8 @@ ch.kof.barometer_data <- DcatResource$new(
     en = "Since the 1970s, the KOF Swiss Economic Institute is publishing a leading composite indicator, the KOF Economic Barometer, predicting how the Swiss economy should perform in the near future. The methodology was overhauled in 1998 and again in 2006. The last thorough revision was conducted in 2014.",
     fr = "Depuis les années 70, le KOF publie un indicateur phare pour l’économie suisse, le baromètre conjoncturel, lequel prévoit l’évolution de la conjoncture suisse dans un avenir proche. La méthode de calcul a été révisée en 1998 puis en 2006. La dernière révision a eu lieu en 2014."
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.barometer?mime=csv",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.barometer?mime=csv",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.barometer?mime=csv",
   id = "ch.kof.barometer", # TODO  It is recommended that the identifier consists out of the following characters: A-Za-z, 0-9 without special characters, except - and _
   rights = "CC-BY",
   media_type = "text/csv",
@@ -41,7 +32,8 @@ ch.kof.barometer_meta_de <- DcatResource$new(
   title = list(
     de = "Datenbeschreibung"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=de",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=de",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=de",
   id = "ch.kof.barometer.meta.de",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -53,7 +45,8 @@ ch.kof.barometer_meta_fr <- DcatResource$new(
   title = list(
     fr = "Description des données"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=fr",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=fr",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=fr",
   id = "ch.kof.barometer.meta.fr",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -65,7 +58,8 @@ ch.kof.barometer_meta_en <- DcatResource$new(
   title = list(
     en = "Data description"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=en",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=en",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&locale=en",
   id = "ch.kof.barometer.meta.en",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -130,7 +124,8 @@ ch.kof.bts_total.bs_data <- DcatResource$new(
     fr = "The KOF Business Situation Indicator is based on over 4,500 Swiss enterprise respondents. Each month, a survey is conducted among companies active in industry, retail, construction, project engineering as well as financial and insurance services. Companies in hotel and catering, wholesale and other services are interviewed in the first month of every quarter.",
     en = "L’indicateur de la situation des affaires du KOF se fonde sur plus de 4500 informations d’entreprises de Suisse. Chaque mois, les entreprises des secteurs de l’industrie, du commerce de détail, du bâtiment, des bureaux d’études et des services financiers et assurantiels sont interrogées. Les entreprises de l’hôtellerie, du commerce de gros et des autres services font l’objet d’une enquête trimestrielle, à chaque fois le premier mois d’un nouveau trimestre."
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.bts_total?mime=csv",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.bts_total?mime=csv",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.bts_total?mime=csv",
   id = "ch.kof.bts_total",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -142,7 +137,8 @@ ch.kof.bts_total.bs_meta_de <- DcatResource$new(
   title = list(
     de = "Datenbeschreibung"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=de",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=de",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=de",
   id = "ch.kof.bts_total.meta.de",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -153,7 +149,8 @@ ch.kof.bts_total.bs_meta_fr <- DcatResource$new(
   title = list(
     fr = "Description des données"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=fr",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=fr",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=fr",
   id = "ch.kof.bts_total.meta.fr",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -164,7 +161,8 @@ ch.kof.bts_total.bs_meta_en <- DcatResource$new(
   title = list(
     en = "Data description"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=en",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=en",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=en",
   id = "ch.kof.bts_total.meta.en",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -234,7 +232,8 @@ ch.kof.ie_data <- DcatResource$new(
     en = "The KOF Employment Indicator is calculated on the basis of the quarterly KOF Business Tendency Surveys. As part of these surveys, the KOF asks private businesses in Switzerland how they consider their current staffing levels to be and whether they intend to change them over the coming three months.",
     fr = "Le KOF indicateur de l’emploi est calculé à partir des enquêtes conjoncturelles trimestrielles du KOF. Dans le cadre de ses enquêtes, le KOF interroge des entreprises privées de Suisse sur leur appréciation du nombre actuel de leurs salariés et sur leur intention de modifier ses effectifs dans les trois mois qui suivent."
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv",
   rights = "CC-BY",
   media_type = "text/csv",
   issued = as.Date("2021-01-26"),
@@ -246,7 +245,8 @@ ch.kof.ie_meta_de <- DcatResource$new(
   title = list(
     de = "Datenbeschreibung"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=de",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=de",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=de",
   rights = "CC-BY",
   media_type = "text/csv",
   issued = as.Date("2021-01-26")
@@ -257,7 +257,8 @@ ch.kof.ie_meta_fr <- DcatResource$new(
   title = list(
     fr = "Description des données"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=fr",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=fr",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=fr",
   rights = "CC-BY",
   media_type = "text/csv",
   issued = as.Date("2021-01-26")
@@ -268,7 +269,8 @@ ch.kof.ie_meta_en <- DcatResource$new(
   title = list(
     en = "Data description"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=en",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=en",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&locale=en",
   rights = "CC-BY",
   media_type = "text/csv",
   issued = as.Date("2021-01-26")
@@ -333,7 +335,8 @@ ch.kof.esi_data <- DcatResource$new(
     en = "The KOF Economic Sentiment Indicator for Switzerland is based on the results of the KOF Business Tendency Surveys and the Consumer Confidence Survey conducted by the State Secretariat for Economic Affairs (SECO). The calculation method used for the Swiss indicators follows the method employed by the EU Commission to calculate indicators for all EU member states as well as various aggregates, for instance total EU or Euro area.",
     fr = "Le KOF Indice du climat économique pour la Suisse (KOF Economic Sentiment Indicator) se base sur les résultats d’enquêtes conjoncturelles du KOF et de celle menées auprès des consommateurs par le Secrétariat d’État à l’économie (SECO). La méthode de calcul des indices pour la Suisse s’appuie sur la méthodologie de la Commission européenne. La Commission européenne calcule de cette manière les indices pour tous les pays membres de l’UE ainsi que pour différents agrégats, tels que l’UE dans son ensemble ou la zone euro."
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi&mime=csv",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi&mime=csv",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi&mime=csv",
   id = "ch.kof.esi.index",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -345,7 +348,8 @@ ch.kof.esi_meta_de <- DcatResource$new(
   title = list(
     de = "Datenbeschreibung"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=de",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=de",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=de",
   id = "ch.kof.esi.meta.de", # TODO ALL THE IDs
   rights = "CC-BY",
   media_type = "text/csv",
@@ -356,7 +360,8 @@ ch.kof.esi_meta_fr <- DcatResource$new(
   title = list(
     fr = "Description des données"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=fr",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=fr",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=fr",
   id = "ch.kof.esi.meta.fr",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -367,7 +372,8 @@ ch.kof.esi_meta_en <- DcatResource$new(
   title = list(
     en = "Data description"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=en",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=en",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&locale=en",
   id = "ch.kof.esi.meta.en", # TODO ALL THE IDs
   rights = "CC-BY",
   media_type = "text/csv",
@@ -429,7 +435,8 @@ ch.kof.globalbaro_data <- DcatResource$new(
     en = "The Global Economic Barometers are a system of indicators that enables a timely analysis of global economic development. They represent a collaboration between the KOF Swiss Economic Institute and Fundação Getúlio Vargas (FGV) based in Rio de Janeiro, Brazil. The system consists of two indicators: a coincident indicator and a leading indicator.",
     fr = "Les Baromètres conjoncturels mondiaux sont un système d’indicateurs destiné à l’analyse en temps réel de l’évolution conjoncturelle mondiale. Il s’agit d’un projet de coopération du KOF Centre de recherches conjoncturelles de l’ETH Zürich et de la Fundação Getúlio Vargas (FGV) de Rio de Janeiro (Brésil). Le système comprend deux sous- indicateurs : un indicateur coïncident et un indicateur avancé."
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.globalbaro?mime=csv",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.globalbaro?mime=csv",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.globalbaro?mime=csv",
   id = "ch.kof.globalbaro",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -441,7 +448,8 @@ ch.kof.globalbaro_meta_de <- DcatResource$new(
   title = list(
     de = "Datenbeschreibung"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=de",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=de",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=de",
   id = "ch.kof.globalbaro.meta.de", # TODO ALL THE IDs
   rights = "CC-BY",
   media_type = "text/csv",
@@ -452,7 +460,8 @@ ch.kof.globalbaro_meta_fr <- DcatResource$new(
   title = list(
     fr = "Description des données"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=fr",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=fr",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=fr",
   id = "ch.kof.globalbaro.meta.fr", # TODO ALL THE IDs
   rights = "CC-BY",
   media_type = "text/csv",
@@ -463,7 +472,8 @@ ch.kof.globalbaro_meta_en <- DcatResource$new(
   title = list(
     en = "Data description"
   ),
-  url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=en",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=en",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&locale=en",
   id = "ch.kof.globalbaro.meta.en", # TODO ALL THE IDs
   rights = "CC-BY",
   media_type = "text/csv",
