@@ -36,7 +36,7 @@
         <dcat:keyword xml:lang="en">fli</dcat:keyword>
         <dcat:keyword xml:lang="en">switzerland</dcat:keyword>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-29T00:00:00UTC</dct:issued>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-07T00:00:00UTC</dct:issued>
         <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/monthly"/>
         <dcat:distribution>
           <dcat:Distribution rdf:about="http://kof-konjunkturforschungsstelle/ch.kof.barometer/ch.kof.barometer">
@@ -48,9 +48,10 @@
             <dct:description xml:lang="fr">Depuis les années 70, le KOF publie un indicateur phare pour l’économie suisse, le baromètre conjoncturel, lequel prévoit l’évolution de la conjoncture suisse dans un avenir proche. La méthode de calcul a été révisée en 1998 puis en 2006. La dernière révision a eu lieu en 2014.</dct:description>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.barometer?mime=csv</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.barometer?mime=csv</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
-            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-30T00:00:00UTC</dct:modified>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-07T00:00:00UTC</dct:modified>
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
@@ -58,9 +59,10 @@
             <dct:title xml:lang="de">Datenbeschreibung</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=de</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=de</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
-            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-01T00:00:00UTC</dct:modified>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-07T00:00:00UTC</dct:modified>
             <dct:language>de</dct:language>
           </dcat:Distribution>
         </dcat:distribution>
@@ -69,9 +71,10 @@
             <dct:title xml:lang="fr">Description des données</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=fr</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=fr</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
-            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-29T00:00:00UTC</dct:modified>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-07T00:00:00UTC</dct:modified>
             <dct:language>fr</dct:language>
           </dcat:Distribution>
         </dcat:distribution>
@@ -80,9 +83,10 @@
             <dct:title xml:lang="en">Data description</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=en</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=en</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
-            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-29T00:00:00UTC</dct:modified>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-07T00:00:00UTC</dct:modified>
             <dct:language>en</dct:language>
           </dcat:Distribution>
         </dcat:distribution>
@@ -132,6 +136,7 @@
             <dct:description xml:lang="en">L’indicateur de la situation des affaires du KOF se fonde sur plus de 4500 informations d’entreprises de Suisse. Chaque mois, les entreprises des secteurs de l’industrie, du commerce de détail, du bâtiment, des bureaux d’études et des services financiers et assurantiels sont interrogées. Les entreprises de l’hôtellerie, du commerce de gros et des autres services font l’objet d’une enquête trimestrielle, à chaque fois le premier mois d’un nouveau trimestre.</dct:description>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.bts_total?mime=csv</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.bts_total?mime=csv</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
           </dcat:Distribution>
@@ -141,6 +146,7 @@
             <dct:title xml:lang="de">Datenbeschreibung</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&amp;locale=de</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&amp;locale=de</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>de</dct:language>
@@ -151,6 +157,7 @@
             <dct:title xml:lang="fr">Description des données</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&amp;locale=fr</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&amp;locale=fr</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>fr</dct:language>
@@ -161,6 +168,7 @@
             <dct:title xml:lang="en">Data description</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&amp;locale=en</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&amp;locale=en</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>en</dct:language>
@@ -212,6 +220,7 @@
             <dct:description xml:lang="fr">Le KOF indicateur de l’emploi est calculé à partir des enquêtes conjoncturelles trimestrielles du KOF. Dans le cadre de ses enquêtes, le KOF interroge des entreprises privées de Suisse sur leur appréciation du nombre actuel de leurs salariés et sur leur intention de modifier ses effectifs dans les trois mois qui suivent.</dct:description>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
           </dcat:Distribution>
@@ -221,6 +230,7 @@
             <dct:title xml:lang="de">Datenbeschreibung</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=de</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=de</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>de</dct:language>
@@ -231,6 +241,7 @@
             <dct:title xml:lang="fr">Description des données</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=fr</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=fr</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>fr</dct:language>
@@ -241,6 +252,7 @@
             <dct:title xml:lang="en">Data description</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=en</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=en</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>en</dct:language>
@@ -288,6 +300,7 @@
             <dct:description xml:lang="fr">Le KOF Indice du climat économique pour la Suisse (KOF Economic Sentiment Indicator) se base sur les résultats d’enquêtes conjoncturelles du KOF et de celle menées auprès des consommateurs par le Secrétariat d’État à l’économie (SECO). La méthode de calcul des indices pour la Suisse s’appuie sur la méthodologie de la Commission européenne. La Commission européenne calcule de cette manière les indices pour tous les pays membres de l’UE ainsi que pour différents agrégats, tels que l’UE dans son ensemble ou la zone euro.</dct:description>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi&amp;mime=csv</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi&amp;mime=csv</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
           </dcat:Distribution>
@@ -297,6 +310,7 @@
             <dct:title xml:lang="de">Datenbeschreibung</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=de</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=de</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>de</dct:language>
@@ -307,6 +321,7 @@
             <dct:title xml:lang="fr">Description des données</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=fr</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=fr</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>fr</dct:language>
@@ -317,6 +332,7 @@
             <dct:title xml:lang="en">Data description</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=en</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=en</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>en</dct:language>
@@ -364,6 +380,7 @@
             <dct:description xml:lang="fr">Les Baromètres conjoncturels mondiaux sont un système d’indicateurs destiné à l’analyse en temps réel de l’évolution conjoncturelle mondiale. Il s’agit d’un projet de coopération du KOF Centre de recherches conjoncturelles de l’ETH Zürich et de la Fundação Getúlio Vargas (FGV) de Rio de Janeiro (Brésil). Le système comprend deux sous- indicateurs : un indicateur coïncident et un indicateur avancé.</dct:description>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.globalbaro?mime=csv</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.globalbaro?mime=csv</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
           </dcat:Distribution>
@@ -373,6 +390,7 @@
             <dct:title xml:lang="de">Datenbeschreibung</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=de</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=de</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>de</dct:language>
@@ -383,6 +401,7 @@
             <dct:title xml:lang="fr">Description des données</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=fr</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=fr</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>fr</dct:language>
@@ -393,6 +412,7 @@
             <dct:title xml:lang="en">Data description</dct:title>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00UTC</dct:issued>
             <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=en</dcat:accessURL>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema">https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=en</dcat:downloadURL>
             <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
             <dcat:mediaType>text/csv</dcat:mediaType>
             <dct:language>en</dct:language>
