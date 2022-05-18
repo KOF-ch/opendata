@@ -137,8 +137,8 @@ ch.kof.bts_total.bs_meta_de <- DcatResource$new(
   title = list(
     de = "Datenbeschreibung"
   ),
-access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=de",
-  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=de",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&locale=de",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&locale=de",
   id = "ch.kof.bts_total.meta.de",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -149,8 +149,8 @@ ch.kof.bts_total.bs_meta_fr <- DcatResource$new(
   title = list(
     fr = "Description des données"
   ),
-access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=fr",
-  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=fr",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&locale=fr",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&locale=fr",
   id = "ch.kof.bts_total.meta.fr",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -161,8 +161,8 @@ ch.kof.bts_total.bs_meta_en <- DcatResource$new(
   title = list(
     en = "Data description"
   ),
-access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=en",
-  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.TODO?mime=csv&locale=en",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&locale=en",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&locale=en",
   id = "ch.kof.bts_total.meta.en",
   rights = "CC-BY",
   media_type = "text/csv",
@@ -335,8 +335,8 @@ ch.kof.esi_data <- DcatResource$new(
     en = "The KOF Economic Sentiment Indicator for Switzerland is based on the results of the KOF Business Tendency Surveys and the Consumer Confidence Survey conducted by the State Secretariat for Economic Affairs (SECO). The calculation method used for the Swiss indicators follows the method employed by the EU Commission to calculate indicators for all EU member states as well as various aggregates, for instance total EU or Euro area.",
     fr = "Le KOF Indice du climat économique pour la Suisse (KOF Economic Sentiment Indicator) se base sur les résultats d’enquêtes conjoncturelles du KOF et de celle menées auprès des consommateurs par le Secrétariat d’État à l’économie (SECO). La méthode de calcul des indices pour la Suisse s’appuie sur la méthodologie de la Commission européenne. La Commission européenne calcule de cette manière les indices pour tous les pays membres de l’UE ainsi que pour différents agrégats, tels que l’UE dans son ensemble ou la zone euro."
   ),
-access_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi&mime=csv",
-  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi&mime=csv",
+access_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi?mime=csv",
+  download_url = "https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi?mime=csv",
   id = "ch.kof.esi.index",
   rights = "CC-BY",
   media_type = "text/csv",
