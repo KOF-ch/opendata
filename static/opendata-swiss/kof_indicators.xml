@@ -49,8 +49,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.barometer?mime=csv"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.barometer?mime=csv"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-06T00:00:00Z</dct:modified>
           </dcat:Distribution>
         </dcat:distribution>
@@ -60,8 +61,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=de"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=de"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-06T00:00:00Z</dct:modified>
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU" />
           </dcat:Distribution>
@@ -72,8 +74,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=fr"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=fr"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-06T00:00:00Z</dct:modified>
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA" />
           </dcat:Distribution>
@@ -84,8 +87,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=en"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.barometer?mime=csv&amp;locale=en"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-06T00:00:00Z</dct:modified>
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
           </dcat:Distribution>
@@ -137,8 +141,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.bts_total?mime=csv"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.bts_total?mime=csv"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
@@ -147,8 +152,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&amp;locale=de"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&amp;locale=de"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -158,8 +164,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&amp;locale=fr"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&amp;locale=fr"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -169,8 +176,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&amp;locale=en"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.bts_total?mime=csv&amp;locale=en"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -221,8 +229,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
@@ -231,8 +240,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=de"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=de"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -242,8 +252,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=fr"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=fr"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -253,8 +264,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=en"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.ie?mime=csv&amp;locale=en"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -301,8 +313,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi?mime=csv"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.esi?mime=csv"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
@@ -311,8 +324,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=de"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=de"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -322,8 +336,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=fr"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=fr"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -333,8 +348,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=en"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.esi?mime=csv&amp;locale=en"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -381,8 +397,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.globalbaro?mime=csv"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.globalbaro?mime=csv"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
@@ -391,8 +408,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=de"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=de"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -402,8 +420,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=fr"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=fr"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA" />
           </dcat:Distribution>
         </dcat:distribution>
@@ -413,8 +432,9 @@
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T00:00:00Z</dct:issued>
             <dcat:accessURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=en"/>
             <dcat:downloadURL rdf:resource="https://datenservice.kof.ethz.ch/api/v1/public/metadata/collections/ogd_ch.kof.globalbaro?mime=csv&amp;locale=en"/>
+            <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
             <dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-            <dcat:mediaType>text/csv</dcat:mediaType>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
           </dcat:Distribution>
         </dcat:distribution>
