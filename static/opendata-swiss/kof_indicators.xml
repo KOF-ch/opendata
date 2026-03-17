@@ -204,7 +204,7 @@
             <vcard:hasEmail>mailto:data@kof.ethz.ch</vcard:hasEmail>
           </vcard:Organization>
         </dcat:contactPoint>
-        <dcat:theme rdf:resource="https://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON" />
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU" />
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA" />
